@@ -12,7 +12,10 @@
     "@testing-library/jest-dom": "latest",
     "@testing-library/react": "latest",
     "@testing-library/user-event": "latest",
+    "bootstrap": "latest",
+    "node-sass": "latest",
     "react": "latest",
+    "react-bootstrap": "latest",
     "react-dom": "latest",
     "react-scripts": "latest"
   },
