@@ -4,7 +4,7 @@
   "private": true,
   "devDependencies": {
     "eslint": "latest",
-    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react": "latest",
     "typescript": "latest"
   },
   "dependencies": {
@@ -17,6 +17,7 @@
     "react": "latest",
     "react-bootstrap": "latest",
     "react-dom": "latest",
+    "react-router-dom": "latest",
     "react-scripts": "latest"
   },
   "scripts": {
