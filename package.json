@@ -12,6 +12,7 @@
     "@testing-library/jest-dom": "latest",
     "@testing-library/react": "latest",
     "@testing-library/user-event": "latest",
+    "jquery": "latest",
     "bootstrap": "latest",
     "node-sass": "latest",
     "react": "latest",
