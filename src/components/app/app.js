@@ -4,6 +4,7 @@ import {
   Switch,
   Route,
   NavLink,
+  Link,
 } from 'react-router-dom'
 import { Navbar, Nav, Container } from 'react-bootstrap'
 import Home from '../../routes/home'
@@ -14,7 +15,9 @@ export default function App() {
   return (
     <Router>
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand>Portfolio</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">
+          Portfolio
+        </Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link as={NavLink} exact to="/">
             Home

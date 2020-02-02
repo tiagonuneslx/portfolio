@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { render, getByRole } from '@testing-library/react'
+import { render } from '@testing-library/react'
 import App from './app'
 
 it('renders without crashing', () => {
