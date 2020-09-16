@@ -12,6 +12,7 @@
     "@testing-library/react": "latest",
     "@testing-library/user-event": "latest",
     "jquery": "latest",
+    "popper.js": "latest",
     "bootstrap": "latest",
     "node-sass": "latest",
     "react": "latest",
