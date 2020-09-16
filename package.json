@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "eslint": "latest",
     "eslint-plugin-react": "latest",
     "typescript": "latest"
   },
