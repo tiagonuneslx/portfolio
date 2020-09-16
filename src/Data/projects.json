@@ -5,10 +5,9 @@
         "thumbnailSrc": "portfolio_thumbnail.png",
         "technologies": [
             "react",
-            "bootstrap",
-            "javascript",
-            "html5",
-            "sass"
+            "node",
+            "web",
+            "bootstrap"
         ]
     }
 ]
