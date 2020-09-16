@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Online Portfolio",
+        "description": "A project I built in my spare time to show off my projects and experience and practice React and Bootstrap.",
+        "thumbnailSrc": "portfolio_thumbnail.png",
+        "technologies": [
+            "react",
+            "bootstrap",
+            "javascript",
+            "html5",
+            "sass"
+        ]
+    }
+]
