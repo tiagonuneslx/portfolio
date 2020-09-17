@@ -13,7 +13,7 @@ export default function Projects() {
               <img
                 src={
                   process.env.PUBLIC_URL +
-                  'projects_thumbnails/' +
+                  '/projects_thumbnails/' +
                   project.thumbnailSrc
                 }
                 class="card-img"
@@ -35,7 +35,7 @@ export default function Projects() {
                       <img
                         src={
                           process.env.PUBLIC_URL +
-                          ' technologies_logos/' +
+                          '/technologies_logos/' +
                           technologies[technology].logoSrc
                         }
                         alt={technologies[technology].name + ' logo'}
