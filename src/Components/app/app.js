@@ -13,7 +13,7 @@ import Interests from 'Routes/interests'
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand as={Link} to="/">
           Portfolio
