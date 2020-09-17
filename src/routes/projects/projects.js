@@ -1,6 +1,6 @@
 import React from 'react'
-import projects from '../../Data/projects.json'
-import technologies from '../../Data/technologies.json'
+import projects from 'Data/projects.json'
+import technologies from 'Data/technologies.json'
 import { OverlayTrigger, Tooltip } from 'react-bootstrap'
 
 export default function Projects() {

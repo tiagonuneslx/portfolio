@@ -7,9 +7,9 @@ import {
   Link,
 } from 'react-router-dom'
 import { Navbar, Nav, Container } from 'react-bootstrap'
-import Home from '../../Routes/home'
-import Projects from '../../Routes/projects'
-import Interests from '../../Routes/interests'
+import Home from 'Routes/home'
+import Projects from 'Routes/projects'
+import Interests from 'Routes/interests'
 
 export default function App() {
   return (
