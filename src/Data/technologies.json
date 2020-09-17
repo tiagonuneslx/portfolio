@@ -1,18 +1,50 @@
 {
-    "react": {
-        "name": "React",
-        "logoSrc": "react_logo.svg"
-    },
-    "bootstrap": {
-        "name": "Bootstrap 4",
-        "logoSrc": "bootstrap_logo.jpg"
-    },
-    "node": {
-        "name": "Node.js",
-        "logoSrc": "node_logo.png"
-    },
-    "web": {
-        "name": "HTML 5, CSS 3, Javascript",
-        "logoSrc": "web_logo.png"
-    }
+  "react": {
+    "name": "React",
+    "logoSrc": "react_logo.svg"
+  },
+  "bootstrap": {
+    "name": "Bootstrap 4",
+    "logoSrc": "bootstrap_logo.jpg"
+  },
+  "node": {
+    "name": "Node.js",
+    "logoSrc": "node_logo.png"
+  },
+  "web": {
+    "name": "HTML 5, CSS 3, Javascript",
+    "logoSrc": "web_logo.png"
+  },
+  "django": {
+    "name": "Django",
+    "logoSrc": "django_logo.jpg"
+  },
+  "python": {
+    "name": "Python 3",
+    "logoSrc": "python_logo.jpg"
+  },
+  "vuejs": {
+    "name": "Vue.js",
+    "logoSrc": "vuejs_logo.png"
+  },
+  "bulma": {
+    "name": "Bulma",
+    "logoSrc": "bulma_logo.png"
+  },
+  "android": {
+    "name": "Android Native",
+    "logoSrc": "android_logo.png"
+  },
+  "kotlin": {
+    "name": "Kotlin",
+    "logoSrc": "kotlin_logo.png"
+  },
+  "gradle": {
+    "name": "Gradle",
+    "logoSrc": "gradle_logo.png"
+  },
+  "materialdesign": {
+    "name": "Material Design",
+    "logoSrc": "materialdesign_logo.jpg"
+  }
 }

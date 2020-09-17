@@ -1,6 +1,7 @@
 import React from 'react'
 import projects from '../../Data/projects.json'
 import technologies from '../../Data/technologies.json'
+import { OverlayTrigger, Tooltip } from 'react-bootstrap'
 
 export default function Projects() {
   return (
@@ -8,7 +9,7 @@ export default function Projects() {
       {projects.map((project) => (
         <div class="card mb-3">
           <div class="row no-gutters">
-            <div class="col-sm-4">
+            <div class="col-lg-5">
               <img
                 src={
                   process.env.PUBLIC_URL +
@@ -19,26 +20,30 @@ export default function Projects() {
                 alt={project.name + ' thumbnail'}
               />
             </div>
-            <div class="col-sm-8">
+            <div class="col-sm">
               <div class="card-body">
-                <h5 class="card-title">Online Portfolio</h5>
-                <p class="card-text">
-                  A project I built in my spare time to show off my projects and
-                  experience and practice React and Bootstrap.
-                </p>
+                <h5 class="card-title">{project.name}</h5>
+                <p class="card-text">{project.description}</p>
                 {project.technologies.map((technology) =>
                   technologies[technology] ? (
-                    <img
-                      src={
-                        process.env.PUBLIC_URL +
-                        ' technologies_logos/' +
-                        technologies[technology].logoSrc
+                    <OverlayTrigger
+                      placement="top"
+                      overlay={
+                        <Tooltip>{technologies[technology].name}</Tooltip>
                       }
-                      alt={technologies[technology].name + ' logo'}
-                      style={{ width: '56px', height: '56px' }}
-                    ></img>
+                    >
+                      <img
+                        src={
+                          process.env.PUBLIC_URL +
+                          ' technologies_logos/' +
+                          technologies[technology].logoSrc
+                        }
+                        alt={technologies[technology].name + ' logo'}
+                        style={{ width: '56px', height: '56px' }}
+                      />
+                    </OverlayTrigger>
                   ) : (
-                    <div />
+                    <span />
                   )
                 )}
               </div>
