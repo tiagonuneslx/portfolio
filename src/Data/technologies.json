@@ -35,6 +35,10 @@
     "name": "Android Native",
     "logoSrc": "android_logo.png"
   },
+  "java": {
+    "name": "Java",
+    "logoSrc": "java_logo.png"
+  },
   "kotlin": {
     "name": "Kotlin",
     "logoSrc": "kotlin_logo.png"
