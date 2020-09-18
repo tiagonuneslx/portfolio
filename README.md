@@ -8,7 +8,7 @@ My online portfolio, a project I built in my spare time to show off my projects 
 
 ## Installation
 
-Use the node package manager npm to install the dependencies.
+Use the node package manager (npm) to install the dependencies.
 
 ```bash
 npm install
