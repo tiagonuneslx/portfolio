@@ -1,5 +1,6 @@
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Slider from 'Components/slider'
 import React from 'react'
 import { Alert } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
@@ -50,6 +51,7 @@ export default function Home() {
           </p>
         </div>
       </div>
+      <Slider />
     </div>
   )
 }

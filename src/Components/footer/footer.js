@@ -1,14 +1,4 @@
 import React from 'react'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  NavLink,
-  Link,
-} from 'react-router-dom'
-import { Navbar, Nav, Container } from 'react-bootstrap'
-import Home from 'Routes/home'
-import Projects from 'Routes/projects'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
