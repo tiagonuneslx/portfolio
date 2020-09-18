@@ -2,15 +2,21 @@
 
 My online portfolio, a project I built in my spare time to show off my projects and experience and practice React and Bootstrap.
 
+## Requirements
+
+[Node.js](https://nodejs.org)
+
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the node package manager npm to install the dependencies.
 
 ```bash
 npm install
 ```
 
 ## Usage
+
+Start local development server.
 
 ```bash
 npm start
