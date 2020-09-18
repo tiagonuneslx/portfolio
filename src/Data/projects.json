@@ -20,5 +20,12 @@
     "codeUrl": "https://github.com/tiagonuneslx/portfolio",
     "liveUrl": "https://tiagonuneslx.github.io/portfolio",
     "technologies": ["react", "node", "web", "bootstrap"]
+  },
+  {
+    "name": "e-Commerce websites",
+    "description": "A bunch of web apps I built with the Laravel framework in college.",
+    "thumbnailSrc": "daw_thumbnail.png",
+    "codeUrl": "https://github.com/tiagonuneslx/daw",
+    "technologies": ["laravel", "php", "web", "bootstrap"]
   }
 ]
