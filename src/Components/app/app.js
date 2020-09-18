@@ -6,7 +6,7 @@ import {
   NavLink,
   Link,
 } from 'react-router-dom'
-import { Navbar, Nav, Container } from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
 import Home from 'Routes/home'
 import Projects from 'Routes/projects'
 import Footer from 'Components/footer'
