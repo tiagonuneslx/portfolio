@@ -9,12 +9,12 @@ import {
 import { Navbar, Nav, Container } from 'react-bootstrap'
 import Home from 'Routes/home'
 import Projects from 'Routes/projects'
-import Interests from 'Routes/interests'
+import Footer from 'Components/footer'
 
 export default function App() {
   return (
     <Router basename="/portfolio">
-      <Navbar bg="dark" variant="dark">
+      <Navbar bg="light" variant="light">
         <Navbar.Brand as={Link} to="/">
           Portfolio
         </Navbar.Brand>
@@ -24,9 +24,6 @@ export default function App() {
           </Nav.Link>
           <Nav.Link as={NavLink} to="/projects">
             Projects
-          </Nav.Link>
-          <Nav.Link as={NavLink} to="/interests">
-            Interests
           </Nav.Link>
         </Nav>
       </Navbar>
@@ -38,11 +35,9 @@ export default function App() {
           <Route path="/projects">
             <Projects />
           </Route>
-          <Route path="/interests">
-            <Interests />
-          </Route>
         </Switch>
       </Container>
+      <Footer />
     </Router>
   )
 }
