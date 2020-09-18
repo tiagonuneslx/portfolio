@@ -15,7 +15,7 @@ export default function App() {
   return (
     <Router basename="/portfolio">
       <Navbar bg="light" variant="light">
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand as={Link} exact to="/">
           Portfolio
         </Navbar.Brand>
         <Nav className="mr-auto">
@@ -27,16 +27,14 @@ export default function App() {
           </Nav.Link>
         </Nav>
       </Navbar>
-      <Container className="mt-4">
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-        </Switch>
-      </Container>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/projects">
+          <Projects />
+        </Route>
+      </Switch>
       <Footer />
     </Router>
   )

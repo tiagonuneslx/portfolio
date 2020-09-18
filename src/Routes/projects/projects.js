@@ -1,7 +1,7 @@
 import React from 'react'
 import projects from 'Data/projects.json'
 import technologies from 'Data/technologies.json'
-import { OverlayTrigger, Tooltip } from 'react-bootstrap'
+import { Container, OverlayTrigger, Tooltip } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGlobeAmericas } from '@fortawesome/free-solid-svg-icons'
 import './projects.css'
@@ -19,7 +19,7 @@ export default function Projects() {
   }
 
   return (
-    <div>
+    <Container className="mt-4">
       {projects.map((project, index) => (
         <div
           className="card mb-3"
@@ -100,6 +100,6 @@ export default function Projects() {
           </div>
         </div>
       ))}
-    </div>
+    </Container>
   )
 }
