@@ -38,8 +38,9 @@ export default function Projects() {
                   {project.liveUrl ? (
                     <a
                       href={project.liveUrl}
-                      class="btn btn-primary mr-1"
+                      className="btn btn-primary mr-1"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <FontAwesomeIcon
                         icon={faGlobeAmericas}
@@ -54,7 +55,8 @@ export default function Projects() {
                     <a
                       href={project.codeUrl}
                       target="_blank"
-                      class="btn btn-light ml-1"
+                      rel="noopener noreferrer"
+                      className="btn btn-light ml-1"
                       style={{ border: '1px solid lightgray' }}
                     >
                       <FontAwesomeIcon icon={faGithub} className="mr-1" />

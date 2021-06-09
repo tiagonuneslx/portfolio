@@ -15,12 +15,17 @@ export default function Footer() {
       <a
         href="https://www.linkedin.com/in/tiago-nunes-8430401b7/"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <FontAwesomeIcon icon={faLinkedin} className="ml-2 mr-1" />
         LinkedIn
       </a>
       ,
-      <a href="https://github.com/tiagonuneslx" target="_blank">
+      <a
+        href="https://github.com/tiagonuneslx"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <FontAwesomeIcon icon={faGithub} className="mx-1" />
         GitHub
       </a>
