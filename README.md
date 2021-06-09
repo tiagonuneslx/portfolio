@@ -19,7 +19,7 @@ npm install
 Start local development server.
 
 ```bash
-npm start
+npm run start
 ```
 
 ## Continuous Integration / Continuous Delivery
@@ -29,4 +29,5 @@ npm start
 [![codecov](https://codecov.io/gh/tiagonuneslx/portfolio/branch/master/graph/badge.svg)](https://codecov.io/gh/tiagonuneslx/portfolio)
 
 ## License
+
 ![License](https://img.shields.io/github/license/tiagonuneslx/portfolio)
