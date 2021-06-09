@@ -41,6 +41,7 @@ export default class Slider extends Component {
           {Object.keys(technologies).map((key) => (
             <OverlayTrigger
               placement="top"
+              key={key}
               overlay={<Tooltip>{technologies[key].name}</Tooltip>}
             >
               <div className="slide">

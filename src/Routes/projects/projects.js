@@ -22,6 +22,7 @@ export default function Projects() {
     <Container className="mt-4 mb-5">
       {projects.map((project, index) => (
         <div
+          key={index}
           className="card mb-3"
           onMouseOver={hoverProject}
           onMouseLeave={resetHoverProject}

@@ -15,7 +15,7 @@ export default function Welcome() {
       <div className="container">
         <h1 className="display-4">Hi there, and welcome!</h1>
         <p className="lead">
-          My name is Tiago Nunes and I'm a mobile developer
+          My name is Tiago Nunes and I&apos;m a mobile developer
         </p>
         <hr className="my-4" />
         <p>
