@@ -14,7 +14,7 @@ import Footer from 'Components/footer'
 export default function App() {
   return (
     <Router basename="/portfolio">
-      <Navbar bg="light" variant="light">
+      <Navbar bg="white" variant="light">
         <Navbar.Brand as={Link} exact to="/">
           Portfolio
         </Navbar.Brand>

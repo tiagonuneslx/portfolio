@@ -17,7 +17,7 @@
   },
   "django": {
     "name": "Django",
-    "logoSrc": "django_logo.jpg"
+    "logoSrc": "django_logo.png"
   },
   "python": {
     "name": "Python 3",

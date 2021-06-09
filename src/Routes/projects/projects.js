@@ -19,7 +19,7 @@ export default function Projects() {
   }
 
   return (
-    <Container className="mt-4">
+    <Container className="mt-4 mb-5">
       {projects.map((project, index) => (
         <div
           className="card mb-3"
@@ -36,7 +36,11 @@ export default function Projects() {
               <div className="row h-100 center-vertically urls-buttons">
                 <div className="col-sm center-vertically text-center">
                   {project.liveUrl ? (
-                    <a href={project.liveUrl} class="btn btn-primary mr-1">
+                    <a
+                      href={project.liveUrl}
+                      class="btn btn-primary mr-1"
+                      target="_blank"
+                    >
                       <FontAwesomeIcon
                         icon={faGlobeAmericas}
                         className="mr-1"
@@ -49,6 +53,7 @@ export default function Projects() {
                   {project.codeUrl ? (
                     <a
                       href={project.codeUrl}
+                      target="_blank"
                       class="btn btn-light ml-1"
                       style={{ border: '1px solid lightgray' }}
                     >

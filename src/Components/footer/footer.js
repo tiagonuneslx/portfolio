@@ -5,19 +5,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Footer() {
   return (
     <footer
-      className="page-footer font-small text-center py-3 mt-5"
+      className="page-footer font-small text-center py-3"
       style={{
         backgroundColor: '#eceff1',
         fontFamily: "'Roboto', sans-serif",
       }}
     >
-      2020 Tiago Nunes Portfolio |
-      <a href="https://www.linkedin.com/in/tiago-nunes-8430401b7/">
+      2021 Tiago Nunes Portfolio |
+      <a
+        href="https://www.linkedin.com/in/tiago-nunes-8430401b7/"
+        target="_blank"
+      >
         <FontAwesomeIcon icon={faLinkedin} className="ml-2 mr-1" />
         LinkedIn
       </a>
       ,
-      <a href="https://github.com/tiagonuneslx">
+      <a href="https://github.com/tiagonuneslx" target="_blank">
         <FontAwesomeIcon icon={faGithub} className="mx-1" />
         GitHub
       </a>

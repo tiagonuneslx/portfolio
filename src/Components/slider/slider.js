@@ -35,9 +35,9 @@ export default class Slider extends Component {
 
   render() {
     return (
-      <div class="container">
-        <h2>Technologies</h2>
-        <section class="customer-logos slider">
+      <div class="container py-5">
+        <h2 class="pt-0">Technologies</h2>
+        <section class="customer-logos slider mt-4">
           {Object.keys(technologies).map((key) => (
             <OverlayTrigger
               placement="top"
