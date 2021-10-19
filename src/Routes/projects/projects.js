@@ -19,7 +19,7 @@ export default function Projects() {
   }
 
   return (
-    <Container className="mt-4 mb-5">
+    <Container className="mt-4 mb-5 pt-5">
       {projects.map((project, index) => (
         <div
           key={index}

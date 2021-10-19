@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,24 +12,50 @@ import Projects from 'Routes/projects'
 import Footer from 'Components/footer'
 
 export default function App() {
+
+  const [isWelcomeVisible, setWelcomeVisible] = useState(true)
+
   return (
     <Router basename="/portfolio">
-      <Navbar bg="white" variant="light">
-        <Navbar.Brand as={Link} exact to="/">
-          Portfolio
+      <Navbar style={{
+        backgroundColor: `rgb(255,255,255,${isWelcomeVisible ? 0.0 : 0.9})`,
+        transition: 'background-color 0.5s ease',
+      }} variant="light" fixed="top">
+        <Navbar.Brand as={Link} exact to="/"
+          style={{
+            marginLeft: '30px',
+            fontSize: '26px',
+            letterSpacing: '1.8px',
+            fontWeight: '300',
+            opacity: isWelcomeVisible ? 0.0 : 1.0,
+            transition: 'opacity 0.5s ease',
+          }}>
+          Tiago Nunes&apos; Portfolio
         </Navbar.Brand>
-        <Nav className="mr-auto">
-          <Nav.Link as={NavLink} exact to="/">
+        <Nav className="ml-auto">
+          <Nav.Link as={NavLink} exact to="/" style={{
+            marginLeft: '30px',
+            fontSize: '16px',
+            letterSpacing: '1.2px',
+            fontWeight: '400'
+          }}>
             Home
           </Nav.Link>
-          <Nav.Link as={NavLink} to="/projects">
+          <Nav.Link as={NavLink} to="/projects"
+            style={{
+              marginLeft: '30px',
+              marginRight: '30px',
+              fontSize: '16px',
+              letterSpacing: '1.2px',
+              fontWeight: '400'
+            }}>
             Projects
           </Nav.Link>
         </Nav>
       </Navbar>
       <Switch>
         <Route exact path="/">
-          <Home />
+          <Home onWelcomeVisibilityChanged={setWelcomeVisible} />
         </Route>
         <Route path="/projects">
           <Projects />

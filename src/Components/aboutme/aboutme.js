@@ -6,7 +6,7 @@ export default function AboutMe() {
       <div
         className="jumbotron jumbotron-fluid mb-0"
         style={{
-          backgroundImage: 'url(' + process.env.PUBLIC_URL + '/home_hero.jpg)',
+          backgroundImage: 'url(' + process.env.PUBLIC_URL + '/gray_gradient.png)',
           backgroundSize: 'cover',
         }}
       >
@@ -18,7 +18,7 @@ export default function AboutMe() {
                 <span role="img" aria-label="">
                   📱
                 </span>{' '}
-                Mobile Developer @ Quatenus International
+                Mobile Developer @ Runtime Revolution
               </h6>
             </p>
             <p>
@@ -93,6 +93,6 @@ export default function AboutMe() {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   )
 }
