@@ -107,5 +107,5 @@ export default function Welcome(props) {
 }
 
 Welcome.propTypes = {
-  onVisibilityChanged: PropTypes.node.isRequired,
+  onVisibilityChanged: PropTypes.func.isRequired,
 };

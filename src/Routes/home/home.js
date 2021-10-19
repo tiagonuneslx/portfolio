@@ -17,5 +17,5 @@ export default function Home(props) {
 }
 
 Home.propTypes = {
-  onWelcomeVisibilityChanged: PropTypes.node.isRequired,
+  onWelcomeVisibilityChanged: PropTypes.func.isRequired,
 };
