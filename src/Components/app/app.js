@@ -15,12 +15,13 @@ export default function App() {
 
   const [isWelcomeVisible, setWelcomeVisible] = useState(true)
 
-  const [isSmallDevice, setIsSmallDevice] = useState(false);
+  const [isSmallDevice, setIsSmallDevice] = useState(true);
   const mediaQuery = window.matchMedia("(max-width: 576px)")
   const listener = (e) => {
     setIsSmallDevice(e.matches)
   }
   useEffect(() => {
+    setIsSmallDevice(mediaQuery.matches)
     mediaQuery.addEventListener("change", listener);
     return () => {
       mediaQuery.removeEventListener("change", listener);
