@@ -20,10 +20,9 @@ export default function App() {
       <Navbar style={{
         backgroundColor: `rgb(255,255,255,${isWelcomeVisible ? 0.0 : 0.9})`,
         transition: 'background-color 0.5s ease',
-      }} variant="light" fixed="top">
-        <Navbar.Brand as={Link} exact to="/"
+      }} variant="light" fixed="top" expand="sm">
+        <Navbar.Brand as={Link} exact to="/" className="ml-md-3"
           style={{
-            marginLeft: '30px',
             fontSize: '26px',
             letterSpacing: '1.8px',
             fontWeight: '300',
@@ -32,26 +31,29 @@ export default function App() {
           }}>
           Tiago Nunes&apos; Portfolio
         </Navbar.Brand>
-        <Nav className="ml-auto">
-          <Nav.Link as={NavLink} exact to="/" style={{
-            marginLeft: '30px',
-            fontSize: '16px',
-            letterSpacing: '1.2px',
-            fontWeight: '400'
-          }}>
-            Home
-          </Nav.Link>
-          <Nav.Link as={NavLink} to="/projects"
-            style={{
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="ml-auto">
+            <Nav.Link as={NavLink} exact to="/" style={{
               marginLeft: '30px',
-              marginRight: '30px',
               fontSize: '16px',
               letterSpacing: '1.2px',
               fontWeight: '400'
             }}>
-            Projects
-          </Nav.Link>
-        </Nav>
+              Home
+            </Nav.Link>
+            <Nav.Link as={NavLink} to="/projects"
+              style={{
+                marginLeft: '30px',
+                marginRight: '30px',
+                fontSize: '16px',
+                letterSpacing: '1.2px',
+                fontWeight: '400'
+              }}>
+              Projects
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
       </Navbar>
       <Switch>
         <Route exact path="/">
