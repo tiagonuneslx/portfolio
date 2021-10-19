@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,6 +15,18 @@ export default function App() {
 
   const [isWelcomeVisible, setWelcomeVisible] = useState(true)
 
+  const [isSmallDevice, setIsSmallDevice] = useState(false);
+  const mediaQuery = window.matchMedia("(max-width: 576px)")
+  const listener = (e) => {
+    setIsSmallDevice(e.matches)
+  }
+  useEffect(() => {
+    mediaQuery.addEventListener("change", listener);
+    return () => {
+      mediaQuery.removeEventListener("change", listener);
+    }
+  })
+
   return (
     <Router basename="/portfolio">
       <Navbar style={{
@@ -29,7 +41,7 @@ export default function App() {
             opacity: isWelcomeVisible ? 0.0 : 1.0,
             transition: 'opacity 0.5s ease',
           }}>
-          Tiago Nunes&apos; Portfolio
+          {isSmallDevice ? "Portfolio" : "Tiago Nunes' Portfolio"}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
