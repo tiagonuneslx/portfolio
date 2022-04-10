@@ -4,14 +4,26 @@
     "description": "A sample Android app I'm building to practice Android development in Kotlin, and to try out all the new architecture components and some useful libraries.",
     "thumbnailSrc": "gestaocozinha_thumbnail.png",
     "codeUrl": "https://github.com/tiagonuneslx/gestao-da-cozinha",
-    "technologies": ["android", "kotlin", "gradle", "materialdesign"]
+    "technologies": [
+      "android",
+      "kotlin",
+      "gradle",
+      "materialdesign"
+    ]
   },
   {
     "name": "Open Day Platform for the University of Algarve",
     "description": "The winning project my team and I built as a college assignment, which was chosen to be used to manage the Open Day for our university (a day in which outsiders come and participate in activities to get familiar with the university). I'm only allowed to share the code for the high fidelity prototype.",
     "thumbnailSrc": "openday_thumbnail.png",
     "codeUrl": "https://github.com/tiagonuneslx/dia_aberto_frontend",
-    "technologies": ["django", "python", "vuejs", "web", "bulma"]
+    "liveUrl": "https://tiagonuneslx.github.io/dia_aberto_frontend/",
+    "technologies": [
+      "django",
+      "python",
+      "vuejs",
+      "web",
+      "bulma"
+    ]
   },
   {
     "name": "Online Portfolio",
@@ -19,13 +31,23 @@
     "thumbnailSrc": "portfolio_thumbnail.png",
     "codeUrl": "https://github.com/tiagonuneslx/portfolio",
     "liveUrl": "https://tiagonuneslx.github.io/portfolio",
-    "technologies": ["react", "node", "web", "bootstrap"]
+    "technologies": [
+      "react",
+      "node",
+      "web",
+      "bootstrap"
+    ]
   },
   {
     "name": "e-Commerce websites",
     "description": "A bunch of web apps I built with the Laravel framework in college.",
     "thumbnailSrc": "daw_thumbnail.png",
     "codeUrl": "https://github.com/tiagonuneslx/daw",
-    "technologies": ["laravel", "php", "web", "bootstrap"]
+    "technologies": [
+      "laravel",
+      "php",
+      "web",
+      "bootstrap"
+    ]
   }
 ]
