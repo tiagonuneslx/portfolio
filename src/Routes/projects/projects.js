@@ -3,7 +3,7 @@ import projects from 'Data/projects.json'
 import technologies from 'Data/technologies.json'
 import { Container, OverlayTrigger, Tooltip } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobeAmericas } from '@fortawesome/free-solid-svg-icons'
+import {faDownload, faGlobeAmericas} from '@fortawesome/free-solid-svg-icons'
 import './projects.css'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
@@ -51,6 +51,22 @@ export default function Projects() {
                     </a>
                   ) : (
                     <span />
+                  )}
+                  {project.appUrl ? (
+                      <a
+                          href={project.appUrl}
+                          className="btn btn-primary mr-1"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                      >
+                        <FontAwesomeIcon
+                            icon={faDownload}
+                            className="mr-1"
+                        />
+                        Download App
+                      </a>
+                  ) : (
+                      <span />
                   )}
                   {project.codeUrl ? (
                     <a

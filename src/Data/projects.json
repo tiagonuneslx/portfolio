@@ -1,5 +1,18 @@
 [
   {
+    "name": "PokeLand App",
+    "description": "A simple Android app built using Jetpack Compose, Kotlin, and the latest Android ecosystem components.",
+    "thumbnailSrc": "pokeland_thumbnail.png",
+    "codeUrl": "https://github.com/tiagonuneslx/Pokeland",
+    "appUrl": "https://github.com/tiagonuneslx/Pokeland/raw/master/PokeLand.apk",
+    "technologies": [
+      "android",
+      "kotlin",
+      "gradle",
+      "materialdesign"
+    ]
+  },
+  {
     "name": "Kitchen Management App",
     "description": "A sample Android app I'm building to practice Android development in Kotlin, and to try out all the new architecture components and some useful libraries.",
     "thumbnailSrc": "gestaocozinha_thumbnail.png",
