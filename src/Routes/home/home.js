@@ -1,21 +1,21 @@
 import AboutMe from 'Components/aboutme'
 import Slider from 'Components/slider'
 import Welcome from 'Components/welcome'
-import Contacts from 'Components/contacts'
 import React from 'react'
 import PropTypes from 'prop-types';
+import Projects from "../../Components/projects";
 
-export default function Home(props) {
-  return (
-    <div>
-      <Welcome onVisibilityChanged={props.onWelcomeVisibilityChanged} />
-      <Slider />
-      <AboutMe />
-      <Contacts />
-    </div>
-  )
+export default function Home() {
+    return (
+        <div>
+            <Welcome/>
+            <Projects/>
+            <AboutMe/>
+            <Slider/>
+        </div>
+    )
 }
 
 Home.propTypes = {
-  onWelcomeVisibilityChanged: PropTypes.func.isRequired,
+    onWelcomeVisibilityChanged: PropTypes.func.isRequired,
 };

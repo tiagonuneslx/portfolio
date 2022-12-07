@@ -1,11 +1,15 @@
 {
+  "jetpackCompose": {
+    "name": "Jetpack Compose",
+    "logoSrc": "jetpack_compose_logo.png"
+  },
   "react": {
     "name": "React",
-    "logoSrc": "react_logo.svg"
+    "logoSrc": "react_logo.png"
   },
   "bootstrap": {
     "name": "Bootstrap 4",
-    "logoSrc": "bootstrap_logo.jpg"
+    "logoSrc": "bootstrap_logo.png"
   },
   "node": {
     "name": "Node.js",
@@ -21,7 +25,7 @@
   },
   "python": {
     "name": "Python 3",
-    "logoSrc": "python_logo.jpg"
+    "logoSrc": "python_logo.png"
   },
   "vuejs": {
     "name": "Vue.js",
@@ -49,7 +53,7 @@
   },
   "materialdesign": {
     "name": "Material Design",
-    "logoSrc": "materialdesign_logo.jpg"
+    "logoSrc": "materialdesign_logo.png"
   },
   "laravel": {
     "name": "Laravel",

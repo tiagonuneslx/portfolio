@@ -8,13 +8,14 @@
     "technologies": [
       "android",
       "kotlin",
+      "jetpackCompose",
       "gradle",
       "materialdesign"
     ]
   },
   {
     "name": "Kitchen Management App",
-    "description": "A sample Android app I'm building to practice Android development in Kotlin, and to try out all the new architecture components and some useful libraries.",
+    "description": "A sample Android app I started building to practice Android development in Kotlin, and to try out all the new architecture components and some useful libraries.",
     "thumbnailSrc": "gestaocozinha_thumbnail.png",
     "codeUrl": "https://github.com/tiagonuneslx/gestao-da-cozinha",
     "technologies": [

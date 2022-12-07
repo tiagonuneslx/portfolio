@@ -7,8 +7,8 @@ export default function Footer() {
     <footer
       className="page-footer font-small text-center py-3"
       style={{
-        backgroundColor: '#eceff1',
-        fontFamily: "'Roboto', sans-serif",
+        backgroundImage: 'url(' + process.env.PUBLIC_URL + '/dark_gray_gradient.svg)',
+        backgroundSize: 'cover',
       }}
     >
       2021 Tiago Nunes Portfolio |
