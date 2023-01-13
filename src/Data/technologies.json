@@ -62,5 +62,17 @@
   "php": {
     "name": "PHP",
     "logoSrc": "php_logo.png"
+  },
+  "ios": {
+    "name": "iOS",
+    "logoSrc": "ios_logo.png"
+  },
+  "swift": {
+    "name": "Swift",
+    "logoSrc": "swift_logo.png"
+  },
+  "swiftui": {
+    "name": "Swift UI",
+    "logoSrc": "swiftui_logo.png"
   }
 }

@@ -1,5 +1,21 @@
 [
   {
+    "name": "Burger App",
+    "description": "A shopping app for buying burgers, developed separately and natively for Android and for iOS. Also includes experiments for migrating from Native to KMM.",
+    "thumbnailSrc": "burgerapp_thumbnail.png",
+    "codeUrl": "https://github.com/tiagonuneslx/burger-app",
+    "technologies": [
+      "android",
+      "kotlin",
+      "jetpackCompose",
+      "gradle",
+      "materialdesign",
+      "ios",
+      "swift",
+      "swiftui"
+    ]
+  },
+  {
     "name": "PokeLand App",
     "description": "A simple Android app built using Jetpack Compose, Kotlin, and the latest Android ecosystem components.",
     "thumbnailSrc": "pokeland_thumbnail.png",
