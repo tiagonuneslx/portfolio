@@ -1,6 +1,7 @@
 # Portfolio
 
 My online portfolio, a project I built in my spare time to show off my projects and experience and practice React and Bootstrap.
+Live: https://tiagonuneslx.github.io/portfolio/
 
 ## Requirements
 
