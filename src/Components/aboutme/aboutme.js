@@ -12,7 +12,7 @@ export default function AboutMe() {
             >
                 <div className="container">
                     <h2 className="p-0 pb-4" style={{
-                        textAlign: "left",
+                        textAlign: "start",
                         fontWeight: "bold",
                     }}>About me</h2>
                     <div className="row mt-4">
