@@ -6,7 +6,7 @@ Live: https://tiagonuneslx.github.io/portfolio/
 
 ## Requirements
 
-[Node.js](https://nodejs.org)
+[Node.js 12](https://nodejs.org)
 
 ## Installation
 
