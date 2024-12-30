@@ -20,11 +20,11 @@ export default function Projects() {
   }
 
   return (
-    <div style={{position: 'relative'}}>
+    <div style={{ position: 'relative', backgroundColor: 'rgba(86,115,255,0.05)' }}>
       <GridPattern />
       <Container id="projects-container" className="pb-5 pt-5">
         <div>
-          <h2 style={{marginBottom: '20px', fontWeight: "bold"}}>Personal Projects</h2>
+          <h2 style={{ marginBottom: '24px', fontWeight: 'bold' }}>Personal Projects</h2>
         </div>
         {projects.map((project, index) => (
           <div
@@ -32,6 +32,11 @@ export default function Projects() {
             className="card mb-3"
             onMouseOver={hoverProject}
             onMouseLeave={resetHoverProject}
+            style={{
+              background: 'linear-gradient(rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.01)), url(' + process.env.PUBLIC_URL + '/dark_gray_gradient.svg)',
+              backgroundSize: 'cover',
+              color: 'white',
+            }}
           >
             <div className="row no-gutters">
               <div

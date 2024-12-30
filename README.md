@@ -24,9 +24,9 @@ Start local development server.
 npm run start
 ```
 
-## Continuous Integration / Continuous Delivery
+## Continuous Delivery
 
-![Node.js CI/CD](https://github.com/tiagonuneslx/portfolio/workflows/Node.js%20CI/CD/badge.svg)
+![Node.js CD Pipeline](https://github.com/tiagonuneslx/portfolio/workflows/Node.js%20CI/CD/badge.svg)
 
 ## License
 

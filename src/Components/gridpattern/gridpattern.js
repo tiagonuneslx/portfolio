@@ -21,7 +21,7 @@ export function GridPattern({
   return (
     <svg
       aria-hidden="true"
-      style={{ position: 'absolute', inset: 0, height: '100%', width: '100%', fill: '#d8d8d8', stroke: '#d8d8d8', maskImage: 'radial-gradient(circle at center, white, transparent)' }}
+      style={{ position: 'absolute', inset: 0, height: '100%', width: '100%', fill: '#c1c1c1', stroke: '#c1c1c1', maskImage: 'radial-gradient(circle at center, white, transparent)' }}
       {...props}
     >
       <defs>
