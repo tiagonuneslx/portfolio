@@ -19,7 +19,7 @@ export default function Welcome() {
                 <p className="lead">
                     My name is <span style={{
                     fontWeight: 'bold'
-                }}>Tiago Nunes</span> and I&apos;m a mobile developer
+                }}>Tiago Nunes</span> and I&apos;m an Android developer
                 </p>
                 <div
                     style={{

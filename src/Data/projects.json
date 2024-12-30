@@ -31,7 +31,7 @@
   },
   {
     "name": "Kitchen Management App",
-    "description": "A sample Android app I started building to practice Android development in Kotlin, and to try out all the new architecture components and some useful libraries.",
+    "description": "A simple Android app I started building to practice Android development in Kotlin, and to try out all the new architecture components and some useful libraries.",
     "thumbnailSrc": "gestaocozinha_thumbnail.png",
     "codeUrl": "https://github.com/tiagonuneslx/gestao-da-cozinha",
     "technologies": [
@@ -70,7 +70,7 @@
   },
   {
     "name": "e-Commerce Web Apps",
-    "description": "A bunch of web apps I built with the Laravel framework in college.",
+    "description": "A collection of web apps I built with the Laravel framework in college.",
     "thumbnailSrc": "daw_thumbnail.png",
     "codeUrl": "https://github.com/tiagonuneslx/daw",
     "technologies": [
