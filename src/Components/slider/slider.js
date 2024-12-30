@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import technologies from 'Data/technologies.json'
-import $ from 'jquery'
 import 'bootstrap'
 import 'slick-carousel/slick/slick'
 import './slider.css'
 
 export default class Slider extends Component {
-  componentDidMount() {
+  /*componentDidMount() {
     $('.customer-logos').slick({
       slidesToShow: 10,
       slidesToScroll: 1,
@@ -72,7 +71,7 @@ export default class Slider extends Component {
         },
       ],
     })
-  }
+  }*/
 
   render() {
     return (
@@ -82,12 +81,12 @@ export default class Slider extends Component {
           backgroundSize: 'cover',
         }}
       >
-        <div className="py-5">
-          <h2 style={{paddingTop: '4px', marginBottom: '20px', fontWeight: "bold"}}>Technologies I&apos;ve worked with:</h2>
-          <section className="customer-logos slider mt-4">
+        <div className="py-5" style={{paddingLeft: '32px', paddingRight: '32px'}}>
+          <h2 style={{paddingTop: '4px', marginBottom: '32px', fontWeight: "bold"}}>Technologies I&apos;ve worked with</h2>
+          <section className="customer-logos slider mt-4" style={{display: 'flex', flexDirection: 'row', gap: '40px', justifyContent: 'center', flexWrap: 'wrap'}}>
             {Object.keys(technologies).map((key) => (
-              <div className="slide" key={key}>
-                <div style={{width: '100px', height: '100px', borderRadius: '50%', backgroundColor: 'rgba(255,255,255,0.08)', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+              <div className="slide" key={key} style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+                <div style={{width: '92px', height: '92px', borderRadius: '50%', backgroundColor: 'rgba(255,255,255,0.08)', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                   <img
                     src={
                       process.env.PUBLIC_URL +
@@ -95,7 +94,7 @@ export default class Slider extends Component {
                       technologies[key].logoSrc
                     }
                     alt={technologies[key].name + ' logo'}
-                    style={{ width: '80px', height: '80px', display: 'flex' }}
+                    style={{ width: '64px', height: '64px', display: 'flex' }}
                   />
                 </div>
                 <h3 style={{
