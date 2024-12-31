@@ -82,7 +82,7 @@ export default class Slider extends Component {
         }}
       >
         <div className="py-5" style={{paddingLeft: '32px', paddingRight: '32px'}}>
-          <h3 style={{paddingTop: '4px', marginBottom: '48px', fontWeight: "bold", textAlign: 'center'}}>Technologies I&apos;ve worked with</h3>
+          <h3 style={{paddingTop: '16px', marginBottom: '56px', fontWeight: "bold", textAlign: 'center'}}>Technologies I&apos;ve worked with</h3>
           <section className="customer-logos slider mt-4" style={{display: 'flex', flexDirection: 'row', gap: '40px', justifyContent: 'center', flexWrap: 'wrap'}}>
             {Object.keys(technologies).map((key) => (
               <div className="slide" key={key} style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
