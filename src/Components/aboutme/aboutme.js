@@ -11,12 +11,12 @@ export default function AboutMe() {
         }}
       >
         <div className="container">
-          <h2 className="p-0 pb-4" style={{
-            textAlign: 'start',
-            fontWeight: 'bold',
-          }}>More about me…</h2>
-          <div className="row mt-4">
-            <div className="col-sm">
+          <div className="row mt-4 pt-4 mb-4">
+            <div className="col-sm-8">
+              <h2 className="p-0 pb-4 mb-2" style={{
+                textAlign: 'start',
+                fontWeight: 'bold',
+              }}>More about me…</h2>
               <p>
                 I&apos;m 26 years old. I have 4 years of work experience as an Android Developer, and a Masters in
                 Computer Engineering from ISCTE-Lisbon, specializing in Intelligent Systems and Data Science.
@@ -30,53 +30,10 @@ export default function AboutMe() {
               </p>
             </div>
             <div className="col-sm">
-              <p>
-                In my career, I have worked with the following technologies:
-              </p>
-              <p>
-                <h6>
-                  Android{' '}
-                  <span role="img" aria-label="">
-                  🤖
-                </span>
-                </h6>
-                - Kotlin & Java
-                <br />- Coroutines, Flows, Threads, AsyncTasks
-                <br />- Jetpack Compose, Jetpack Libraries, View system
-                <br />- UI/UX, Animations, Transitions, Motion, Gestures
-                <br />- Gradle, Maven
-              </p>
-            </div>
-            <div className="col-sm">
-              <p>
-                <h6>
-                  Multiplatform{' '}
-                  <span role="img" aria-label="">
-                  💻
-                </span>
-                  <span role="img" aria-label="">
-                  📱
-                </span>
-                  <span role="img" aria-label="">
-                  🤳
-                </span>
-                </h6>
-                - Kotlin Multiplatform (KMP & KMM)
-                <br />- Ionic (Cordova, Capacitor)
-              </p>
-              <p>
-                <h6>
-                  Web{' '}
-                  <span role="img" aria-label="">
-                  🌎
-                </span>
-                </h6>
-                - REST, SOAP, GraphQL, gRPC, Websockets
-                <br />- Django, Ktor, Spring, Express.js, Node.js, Laravel
-                <br />- Vue.js, React.js
-                <br />- SQL, NoSQL
-                <br />- Firebase, GCP, Amplify, AWS and other Cloud Solutions
-              </p>
+              <img src={
+                process.env.PUBLIC_URL +
+                '/Tiago_Nunes_Photo_Orange_BG.png'
+              } alt="Tiago Nunes Photo" width="240" height="240" />
             </div>
           </div>
         </div>
