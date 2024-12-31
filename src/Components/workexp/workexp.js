@@ -10,7 +10,7 @@ export default class WorkExp extends Component {
     return (
       <div
         style={{
-          backgroundImage: 'url(' + process.env.PUBLIC_URL + '/orange_gradient.svg)',
+          backgroundImage: 'url(' + process.env.PUBLIC_URL + '/dark_blue_gradient.svg)',
           backgroundSize: 'cover',
           position: 'relative'
         }}

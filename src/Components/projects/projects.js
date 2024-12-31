@@ -20,10 +20,10 @@ export default function Projects() {
   }
 
   return (
-    <div style={{ position: 'relative', backgroundColor: 'rgba(65,96,255,0.06)' }}>
+    <div style={{ position: 'relative', backgroundColor: 'rgba(65,96,255,0.13)' }}>
       <GridPattern />
       <Container id="projects-container" className="pb-5" style={{ paddingTop: '72px' }}>
-        <div style={{ backgroundImage: 'radial-gradient(ellipse, #EFEFEF, transparent 70%)', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginBottom: '60px', }}>
+        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginBottom: '60px', }}>
           <h2 style={{
             marginBottom: '-7px',
             fontWeight: 'bold',

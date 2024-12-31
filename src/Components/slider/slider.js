@@ -78,7 +78,7 @@ export default class Slider extends Component {
     return (
       <div
         style={{
-          backgroundImage: 'url(' + process.env.PUBLIC_URL + '/orange_gradient.svg)',
+          backgroundImage: 'url(' + process.env.PUBLIC_URL + '/dark_blue_gradient_2.svg)',
           backgroundSize: 'cover',
           position: 'relative',
         }}

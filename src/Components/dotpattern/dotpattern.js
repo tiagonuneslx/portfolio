@@ -25,7 +25,7 @@ export function DotPattern({
   return (
     <svg
       aria-hidden="true"
-      style={{ position: 'absolute', inset: 0, height: '100%', width: '100%', fill: 'rgba(34,34,34,0.15)', maskImage: 'radial-gradient(circle at center, white, transparent)' }}
+      style={{ position: 'absolute', inset: 0, height: '100%', width: '100%', fill: 'rgba(34,34,34,0.25)', maskImage: 'radial-gradient(circle at center, white, transparent 80%)' }}
       {...props}
     >
       <defs>

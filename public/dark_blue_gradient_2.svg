@@ -2,7 +2,7 @@
 <rect width="1920" height="1080" fill="url(#paint0_radial_2_3)"/>
 <defs>
 <radialGradient id="paint0_radial_2_3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(287 432.5) rotate(17.6672) scale(1522.3 2706.31)">
-    <stop offset="1" stop-color="#006FB6"/>
+    <stop stop-color="#006FB6"/>
     <stop offset="1" stop-color="#005090"/>
 </radialGradient>
 </defs>
