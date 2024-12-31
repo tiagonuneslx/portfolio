@@ -12,7 +12,7 @@ export default function AboutMe() {
       >
         <div className="container">
           <div className="row mt-5 pt-5 mb-5 pb-5">
-            <div className="col-sm-8">
+            <div className="col-lg-8">
               <h2 className="p-0 pb-4 mb-3" style={{
                 textAlign: 'start',
                 fontWeight: 'bold',
@@ -23,7 +23,7 @@ export default function AboutMe() {
                   Computer Engineering from ISCTE-Lisbon, specializing in Intelligent Systems and Data Science.
                 </p>
                 <p>
-                  Currently, I&apos;m looking for work in 🇨🇭Switzerland, preferably around Geneva or Lausanne, in
+                  Currently, I&apos;m looking for work in <img src={process.env.PUBLIC_URL + '/swiss_flag.png'} alt="Swiss Flag" width="24" height="24" />Switzerland, preferably around Geneva or Lausanne, in
                   Android
                   or Web Development.
                 </p>
