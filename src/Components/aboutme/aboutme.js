@@ -17,7 +17,7 @@ export default function AboutMe() {
                 textAlign: 'start',
                 fontWeight: 'bold',
               }}>More about me…</h2>
-              <div style={{fontSize: '1.3rem'}}>
+              <div style={{fontSize: '1.2rem'}}>
                 <p>
                   I&apos;m 26 years old. I have 4 years of work experience as an Android Developer, and a Masters in
                   Computer Engineering from ISCTE-Lisbon, specializing in Intelligent Systems and Data Science.
