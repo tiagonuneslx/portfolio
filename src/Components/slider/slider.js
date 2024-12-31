@@ -3,6 +3,7 @@ import technologies from 'Data/technologies.json'
 import 'bootstrap'
 // import 'slick-carousel/slick/slick'
 import './slider.css'
+import { DotPattern } from '../dotpattern/dotpattern'
 
 export default class Slider extends Component {
   /*componentDidMount() {
@@ -79,10 +80,11 @@ export default class Slider extends Component {
         style={{
           backgroundImage: 'url(' + process.env.PUBLIC_URL + '/orange_gradient.svg)',
           backgroundSize: 'cover',
-          position: 'relative'
+          position: 'relative',
         }}
       >
-        <div style={{padding: '80px 32px'}}>
+        <DotPattern />
+        <div style={{ padding: '80px 32px' }}>
           <div style={{
             display: 'flex',
             flexDirection: 'column',
@@ -94,7 +96,12 @@ export default class Slider extends Component {
               marginBottom: '8px',
               fontWeight: 'bold',
             }}>Technologies I&apos;ve worked with</h2>
-            <div style={{ width: '160px', height: '2px', background: 'linear-gradient(to right, #FFFFFF70, #FFFFFFA0, #FFFFFF70)', display: 'flex' }}></div>
+            <div style={{
+              width: '160px',
+              height: '2px',
+              background: 'linear-gradient(to right, #FFFFFF70, #FFFFFFA0, #FFFFFF70)',
+              display: 'flex',
+            }}></div>
           </div>
           <section className="customer-logos slider mt-4" style={{
             display: 'flex',
@@ -109,7 +116,13 @@ export default class Slider extends Component {
                 <div style={{
                   width: '92px',
                   height: '92px',
-                  borderRadius: '50%', backgroundColor: 'rgba(255,255,255,0.08)', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                  borderRadius: '50%',
+                  backgroundColor: 'rgba(255,255,255,0.1)',
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  zIndex: 10
+                }}>
                   <img
                     src={
                       process.env.PUBLIC_URL +
