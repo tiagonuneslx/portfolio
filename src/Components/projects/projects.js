@@ -23,11 +23,12 @@ export default function Projects() {
     <div style={{ position: 'relative', backgroundColor: 'rgba(65,96,255,0.06)' }}>
       <GridPattern />
       <Container id="projects-container" className="pb-5 pt-5">
-        <div style={{ backgroundImage: 'radial-gradient(ellipse, #EFEFEF, transparent 70%)' }}>
+        <div style={{ backgroundImage: 'radial-gradient(ellipse, #EFEFEF, transparent 70%)', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginBottom: '56px', }}>
           <h2 style={{
-            marginBottom: '24px',
+            marginBottom: '-7px',
             fontWeight: 'bold',
           }}>Personal Projects</h2>
+          <div style={{width: '160px', height: '2px', background: 'linear-gradient(to right, #101F2E55, #101F2E, #101F2E55)', display: 'flex'}}></div>
         </div>
         {projects.map((project, index) => (
           <div

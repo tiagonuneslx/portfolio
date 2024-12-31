@@ -12,8 +12,8 @@ DotPattern.propTypes = {
 };
 
 export function DotPattern({
-                             width = 16,
-                             height = 16,
+                             width = 8,
+                             height = 8,
                              x = 0,
                              y = 0,
                              cx = 1,
@@ -25,7 +25,7 @@ export function DotPattern({
   return (
     <svg
       aria-hidden="true"
-      style={{ position: 'absolute', inset: 0, height: '100%', width: '100%', fill: '#c3c3c3', maskImage: 'radial-gradient(circle at center, white, transparent)' }}
+      style={{ position: 'absolute', inset: 0, height: '100%', width: '100%', fill: 'rgba(34,34,34,0.15)', maskImage: 'radial-gradient(circle at center, white, transparent)' }}
       {...props}
     >
       <defs>
