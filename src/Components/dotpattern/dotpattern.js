@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 DotPattern.propTypes = {
+  pid: PropTypes.string,
   width: PropTypes.number,
   height: PropTypes.number,
   x: PropTypes.number,
@@ -9,6 +10,7 @@ DotPattern.propTypes = {
   cx: PropTypes.number,
   cy: PropTypes.number,
   cr: PropTypes.number,
+  alpha: PropTypes.number,
 }
 
 export function DotPattern({
