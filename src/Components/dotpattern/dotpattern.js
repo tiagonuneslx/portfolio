@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 
 DotPattern.propTypes = {
   width: PropTypes.number,
@@ -9,9 +9,10 @@ DotPattern.propTypes = {
   cx: PropTypes.number,
   cy: PropTypes.number,
   cr: PropTypes.number,
-};
+}
 
 export function DotPattern({
+                             pid = 'dotpattern',
                              width = 8,
                              height = 8,
                              x = 0,
@@ -19,18 +20,26 @@ export function DotPattern({
                              cx = 1,
                              cy = 1,
                              cr = 1,
+                             alpha = 0.25,
                              ...props
                            }) {
 
   return (
     <svg
       aria-hidden="true"
-      style={{ position: 'absolute', inset: 0, height: '100%', width: '100%', fill: 'rgba(34,34,34,0.25)', maskImage: 'radial-gradient(circle at center, white, transparent 80%)' }}
+      style={{
+        position: 'absolute',
+        inset: 0,
+        height: '100%',
+        width: '100%',
+        fill: 'rgba(34,34,34,' + alpha + ')',
+        maskImage: 'radial-gradient(circle at center, white, transparent 80%)',
+      }}
       {...props}
     >
       <defs>
         <pattern
-          id="dot-pattern"
+          id={pid}
           width={width}
           height={height}
           patternUnits="userSpaceOnUse"
@@ -41,7 +50,7 @@ export function DotPattern({
           <circle id="pattern-circle" cx={cx} cy={cy} r={cr} />
         </pattern>
       </defs>
-      <rect width="100%" height="100%" strokeWidth={0} fill={`url(#dot-pattern)`} />
+      <rect width="100%" height="100%" strokeWidth={0} fill={`url(#${pid})`} />
     </svg>
   )
 }

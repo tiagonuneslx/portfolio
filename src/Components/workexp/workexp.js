@@ -15,7 +15,7 @@ export default class WorkExp extends Component {
           position: 'relative'
         }}
       >
-        <DotPattern />
+        <DotPattern alpha="0.5" />
         <div style={{ padding: '48px 32px 32px' }}>
           <div id="workexperience"
                style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>

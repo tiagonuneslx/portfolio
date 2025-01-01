@@ -78,12 +78,12 @@ export default class Slider extends Component {
     return (
       <div
         style={{
-          backgroundImage: 'url(' + process.env.PUBLIC_URL + '/dark_blue_gradient_2.svg)',
+          backgroundImage: 'url(' + process.env.PUBLIC_URL + '/orange_gradient.svg)',
           backgroundSize: 'cover',
           position: 'relative',
         }}
       >
-        <DotPattern />
+        <DotPattern alpha="0.2" pid="technologies-dotpattern"  />
         <div style={{ padding: '80px 32px' }}>
           <div style={{
             display: 'flex',
