@@ -83,7 +83,7 @@ export default class Slider extends Component {
           position: 'relative',
         }}
       >
-        <DotPattern alpha="0.2" pid="technologies-dotpattern"  />
+        <DotPattern alpha="0.1" pid="technologies-dotpattern"  />
         <div style={{ padding: '80px 32px' }}>
           <div style={{
             display: 'flex',
@@ -117,7 +117,7 @@ export default class Slider extends Component {
                   width: '92px',
                   height: '92px',
                   borderRadius: '50%',
-                  backgroundColor: 'rgba(255,255,255,0.1)',
+                  backgroundColor: 'rgba(255,255,255,0.2)',
                   display: 'flex',
                   justifyContent: 'center',
                   alignItems: 'center',
