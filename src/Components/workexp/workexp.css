@@ -67,7 +67,7 @@
     bottom: 0;
     width: 10px;
     background: #323232;
-    height: 70%;
+    height: 85%;
     position-anchor: --myAnchor;
     justify-self: anchor-center;
 }
@@ -161,6 +161,10 @@
     top: 70px;
 }
 
+.cbp_tmtimeline > li .cbp_tmlabel.education:after {
+    top: 24px;
+}
+
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
     border-right-color: #323232;
 }
@@ -182,12 +186,33 @@
     background: #323232;
     border-radius: 50%;
     text-align: center;
-    left: 8%;
+    left: 7.6%;
     margin: 0 0 0 -25px;
-    anchor-name: --myAnchor;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.cbp_tmtimeline > li:first-child .cbp_tmicon {
+    anchor-name: --myAnchor;
+}
+
+.cbp_tmtimeline > li .cbp_tmicon.education {
+    width: 60px;
+    height: 60px;
+    top: 5%;
+    left: 11.5%;
+    /*position-anchor: --myAnchor;
+    justify-self: anchor-center;*/
+}
+
+.cbp_tmtimeline > li .cbp_tmicon.other {
+    width: 60px;
+    height: 60px;
+    top: 27%;
+    left: 11.5%;
+    /*position-anchor: --myAnchor;
+    justify-self: anchor-center;*/
 }
 
 .cbp_tmtimeline li {
@@ -280,6 +305,7 @@
         text-align: left;
     }
     .cbp_tmtimeline > li .cbp_tmlabel {
+        width: 100%;
         margin: 30px 0 70px 0;
         padding: 50px 30px 30px 30px;
         font-weight: 400;
@@ -290,6 +316,9 @@
         right: auto;
         border-right-color: transparent;
         border-bottom-color: #323232;
+        top: -20px;
+    }
+    .cbp_tmtimeline > li .cbp_tmlabel.education:after {
         top: -20px;
     }
     .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
@@ -310,6 +339,30 @@
         position: relative;
         float: right;
         left: auto;
+        margin: 0px 5px 0 0px;
+    }
+    .cbp_tmtimeline > li:nth-child(odd) .cbp_tmicon.education {
+        position: relative;
+        float: left;
+        left: 44px;
+        margin: 0px 5px 0 0px;
+    }
+    .cbp_tmtimeline > li:nth-child(even) .cbp_tmicon.education {
+        position: relative;
+        float: right;
+        right: 40px;
+        margin: 0px 5px 0 0px;
+    }
+    .cbp_tmtimeline > li:nth-child(odd) .cbp_tmicon.other {
+        position: relative;
+        float: left;
+        left: 44px;
+        margin: 0px 5px 0 0px;
+    }
+    .cbp_tmtimeline > li:nth-child(even) .cbp_tmicon.other {
+        position: relative;
+        float: right;
+        right: 40px;
         margin: 0px 5px 0 0px;
     }
     .cbp_tmtimeline > li .cbp_tmtime span:last-child {
