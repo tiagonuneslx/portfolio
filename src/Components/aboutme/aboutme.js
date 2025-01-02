@@ -23,7 +23,7 @@ export default function AboutMe() {
                   Computer Engineering from ISCTE-Lisbon, specializing in Intelligent Systems and Data Science.
                 </p>
                 <p>
-                  Currently, I&apos;m looking for work in <img src={process.env.PUBLIC_URL + '/swiss_flag.png'} alt="Swiss Flag" width="24" height="24" />Switzerland, preferably around Geneva or Lausanne, in
+                  Currently, I&apos;m looking for work in <img src={process.env.PUBLIC_URL + '/swiss_flag.png'} alt="Swiss Flag" width="24" height="24" />Switzerland, in
                   Android
                   or Web Development.
                 </p>
@@ -36,7 +36,7 @@ export default function AboutMe() {
               <img src={
                 process.env.PUBLIC_URL +
                 '/Tiago_Nunes_Photo_Orange_BG.png'
-              } alt="Tiago Nunes Photo" width="280" height="280" style={{
+              } alt="Tiago Nunes Photo" width="260" height="260" style={{
                 border: '3px solid rgba(255, 255, 255, 0.15)',
                 borderRadius: '50%',
                 padding: '4px'
