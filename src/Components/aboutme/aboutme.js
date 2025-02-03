@@ -23,7 +23,7 @@ export default function AboutMe() {
                   Computer Engineering from ISCTE-Lisbon, specializing in Intelligent Systems and Data Science.
                 </p>
                 <p>
-                  Currently, I&apos;m looking for work in <img src={process.env.PUBLIC_URL + '/swiss_flag.png'} alt="Swiss Flag" width="24" height="24" />Switzerland, in
+                  Currently, I&apos;m looking for work in {/*<img src={process.env.PUBLIC_URL + '/swiss_flag.png'} alt="Swiss Flag" width="24" height="24" />Switzerland*/}Lisbon, in
                   Android
                   or Web Development.
                 </p>
