@@ -122,8 +122,8 @@ export default class WorkExp extends Component {
                         and participated in a few Hackathons (such as <a
                           href="https://tecnico.ulisboa.pt/pt/eventos/fenixhack/" target="_blank"
                           rel="noreferrer">Fénixhack 2020</a>), Conferences (such as <a
-                          href="https://blog.jetbrains.com/pt-br/kotlin/2023/04/kotlinconf-2023-participe-da-transmissao-ao-vivo-e-tenha-respostas-as-suas-duvidas/"
-                          target="_blank" rel="noreferrer">Kotlin I/O 2023</a>),
+                          href="https://www.lisbon.droidcon.com/"
+                          target="_blank" rel="noreferrer">Droidcon Lisbon 2024</a>),
                         and Coding Challenges (such as <a
                           href="https://blog.google/technology/developers/googles-hash-code-2020/" target="_blank"
                           rel="noreferrer">Google Hashcode 2020</a>).
