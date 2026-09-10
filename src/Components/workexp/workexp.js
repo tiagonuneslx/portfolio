@@ -19,8 +19,43 @@ export default class WorkExp extends Component {
         <div style={{ padding: '64px 32px 32px' }}>
           <div id="workexperience"
                style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+            <div style={{
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              alignItems: 'center',
+              marginBottom: '10px',
+            }}>
+              <h2 style={{
+                marginBottom: '8px',
+                fontWeight: 'bold',
+              }}>My Career Path</h2>
+              <div style={{
+                width: '160px',
+                height: '2px',
+                background: 'linear-gradient(to right, #FFFFFF70, #FFFFFFA0, #FFFFFF70)',
+                display: 'flex',
+              }}></div>
+            </div>
             <div className="exprow" style={{ display: 'flex' }}>
               <ul className="cbp_tmtimeline">
+                <li>
+                  <div className="cbp_tmicon">
+                    <img src={process.env.PUBLIC_URL + '/signicat_logo.png'} alt="Signicat Logo" width="80"
+                         height="80" />
+                  </div>
+                  <div className="cbp_tmlabel wow fadeInRight animated"
+                       style={{ backgroundImage: 'url(' + process.env.PUBLIC_URL + '/dark_gray_gradient.svg)' }}>
+                    <h3>Android Developer</h3>
+                    <div className="date">
+                      <FontAwesomeIcon icon={faCalendarAlt} className="mr-2" />Since May 2025
+                    </div>
+                    <h4>Signicat, Lisbon</h4>
+                    <div className="projectParagraph">
+                      <p>I&apos;m loving my work as Senior Android Engineer at Signicat, the leading provider of digital identity solutions in Europe.</p>
+                    </div>
+                  </div>
+                </li>
                 <li>
                   <div className="cbp_tmicon education">
                     <FontAwesomeIcon icon={faGraduationCap} color="white" />
@@ -33,7 +68,8 @@ export default class WorkExp extends Component {
                          minHeight: '0',
                        }}>
                     <div className="projectParagraph">
-                      <p>In 2024, I got my <strong style={{fontWeight: 'bold'}}>Master&apos;s in Computer Engineering</strong>,
+                      <p>In 2024, I got my <strong style={{ fontWeight: 'bold' }}>Master&apos;s in Computer
+                        Engineering</strong>,
                         from ISCTE-Lisbon, Portugal, specializing in Intelligent Systems and Data Science.</p>
                     </div>
                   </div>
@@ -97,7 +133,8 @@ export default class WorkExp extends Component {
                          minHeight: '0',
                        }}>
                     <div className="projectParagraph">
-                      <p>In 2020, I got my <strong style={{fontWeight: 'bold'}}>Bachelor&apos;s in Computer Science</strong>, from the University of Algarve, in Faro,
+                      <p>In 2020, I got my <strong style={{ fontWeight: 'bold' }}>Bachelor&apos;s in Computer
+                        Science</strong>, from the University of Algarve, in Faro,
                         Portugal.</p>
                     </div>
                   </div>
@@ -118,7 +155,7 @@ export default class WorkExp extends Component {
                         programming simple flash games, and plugins for video games.</p>
                       <p>Since then, I have worked on some personal projects, contributed to some open-source projects
                         (such as the <a href="https://github.com/GitLiveApp/firebase-kotlin-sdk" target="_blank"
-                                    rel="noreferrer">Firebase Kotlin SDK</a>),
+                                        rel="noreferrer">Firebase Kotlin SDK</a>),
                         and participated in a few Hackathons (such as <a
                           href="https://tecnico.ulisboa.pt/pt/eventos/fenixhack/" target="_blank"
                           rel="noreferrer">Fénixhack 2020</a>), Conferences (such as <a

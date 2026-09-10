@@ -2,8 +2,8 @@
 <rect width="1920" height="1080" fill="url(#paint0_radial_7_5)"/>
 <defs>
 <linearGradient id="paint0_radial_7_5" gradientTransform="rotate(90)">
-    <stop offset="0" stop-color="#EA6000"/>
-    <stop offset="0.05" stop-color="#FA8000"/>
+    <stop offset="0" stop-color="#D65300"/>
+    <stop offset="0.05" stop-color="#E67300"/>
 </linearGradient>
 </defs>
 </svg>

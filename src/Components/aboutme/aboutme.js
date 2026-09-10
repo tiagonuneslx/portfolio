@@ -17,29 +17,26 @@ export default function AboutMe() {
                 textAlign: 'start',
                 fontWeight: 'bold',
               }}>More about me…</h2>
-              <div style={{fontSize: '1.2rem'}}>
+              <div style={{ fontSize: '1.2rem' }}>
                 <p>
-                  I&apos;m 26 years old. I have 4 years of work experience as an Android Developer, and a Masters in
-                  Computer Engineering from ISCTE-Lisbon, specializing in Intelligent Systems and Data Science.
+                  I&apos;m 27 years old.
+                  I work as a Senior Android Engineer at <a
+                  href="https://www.linkedin.com/company/signicat" target="_blank"
+                  rel="noopener noreferrer">Signicat</a>, the leading provider of digital identity solutions in Europe.
                 </p>
-                <p>
-                  Currently, I&apos;m looking for work in {/*<img src={process.env.PUBLIC_URL + '/swiss_flag.png'} alt="Swiss Flag" width="24" height="24" />Switzerland*/}Lisbon, in
-                  Android
-                  or Web Development.
-                </p>
-                <p>
-                  In my spare time, I like to play the electric guitar, play video games and travel.
+                <p>I have 5 years of work experience as an Android Developer, and a Masters in
+                Computer Engineering from ISCTE-Lisbon, specializing in Intelligent Systems and Data Science.
                 </p>
               </div>
             </div>
             <div className="col-sm">
               <img src={
                 process.env.PUBLIC_URL +
-                '/Tiago_Nunes_Photo_Orange_BG.png'
+                '/Tiago_Nunes_Photo.jpeg'
               } alt="Tiago Nunes Photo" width="260" height="260" style={{
                 border: '3px solid rgba(255, 255, 255, 0.15)',
                 borderRadius: '50%',
-                padding: '4px'
+                padding: '4px',
               }} />
             </div>
           </div>

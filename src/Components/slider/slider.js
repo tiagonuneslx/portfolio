@@ -95,7 +95,7 @@ export default class Slider extends Component {
             <h2 style={{
               marginBottom: '8px',
               fontWeight: 'bold',
-            }}>Technologies I&apos;ve worked with</h2>
+            }}>Wide Range of Technologies</h2>
             <div style={{
               width: '160px',
               height: '2px',

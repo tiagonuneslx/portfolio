@@ -1,7 +1,7 @@
 import { faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
-import { faEnvelope, faFileDownload } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import './welcome.css'
 import { Button } from 'react-bootstrap'
 
@@ -50,22 +50,15 @@ export default function Welcome() {
               }}
             >
               <FontAwesomeIcon
-                icon={faFileDownload}
+                icon={faLinkedin}
+                color="white"
                 className="mr-2"
               />
-              Download CV
+              Find me on LinkedIn
             </Button>
           </a>
           <span id="welcome-contacts">
-            <a
-              className="btn btn-light btn-lg rounded-circle"
-              href="https://www.linkedin.com/in/tiago-nunes-8430401b7/"
-              target="_blank"
-              rel="noopener noreferrer"
-              role="button"
-            >
-              <FontAwesomeIcon icon={faLinkedin} />
-            </a>
+            <span className="mr-2" style={{borderLeft: "2px dotted #FFFFFF88", height: "100px"}}></span>
             <a
               className="btn btn-light btn-lg ml-2 rounded-circle"
               href="https://github.com/tiagonuneslx"

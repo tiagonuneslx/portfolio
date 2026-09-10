@@ -11,7 +11,7 @@ export default function Footer() {
         backgroundSize: 'cover',
       }}
     >
-      Last updated in January 2025 · Tiago Nunes Portfolio |
+      Last updated in September 2026 · Tiago Nunes Portfolio |
       <a
         href="https://www.linkedin.com/in/tiago-nunes-8430401b7/"
         target="_blank"
