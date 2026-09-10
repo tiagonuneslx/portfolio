@@ -20,9 +20,7 @@ export default function AboutMe() {
               <div style={{ fontSize: '1.2rem' }}>
                 <p>
                   I&apos;m 27 years old.
-                  I work as a Senior Android Engineer at <a
-                  href="https://www.linkedin.com/company/signicat" target="_blank"
-                  rel="noopener noreferrer">Signicat</a>, the leading provider of digital identity solutions in Europe.
+                  I work as a Senior Android Engineer at Signicat, the leading provider of digital identity solutions in Europe.
                 </p>
                 <p>I have 5 years of work experience as an Android Developer, and a Masters in
                 Computer Engineering from ISCTE-Lisbon, specializing in Intelligent Systems and Data Science.
