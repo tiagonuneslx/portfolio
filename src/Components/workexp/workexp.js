@@ -46,7 +46,7 @@ export default class WorkExp extends Component {
                   </div>
                   <div className="cbp_tmlabel wow fadeInRight animated"
                        style={{ backgroundImage: 'url(' + process.env.PUBLIC_URL + '/dark_gray_gradient.svg)' }}>
-                    <h3>Android Developer</h3>
+                    <h3>Senior Android Developer</h3>
                     <div className="date">
                       <FontAwesomeIcon icon={faCalendarAlt} className="mr-2" />Since May 2025
                     </div>
